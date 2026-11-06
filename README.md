@@ -1,7 +1,6 @@
-# HelpDesk - Página de Login (React + TypeScript + Vite)
+# Página de Login Helpdesk
 
 Desafio: criar a página de login e receber o `access_token` da API
-[json_rest_server](https://pub.dev/packages/json_rest_server) (projeto `helpdesk-jrs`).
 
 ## Como funciona
 
@@ -24,14 +23,14 @@ cd helpdesk-jrs
 json_rest_server run
 ```
 
-A porta vem do `config.yaml` (neste projeto é **5050**; o README da API cita 8080).
+A porta vem do `config.yaml
 
 ### 2. Front-end (terminal 2)
 
 ```bash
 cd helpdesk-login
 npm install
-cp .env.example .env     # ajuste VITE_API_URL se a porta for outra
+cp .env.example .env
 npm run dev
 ```
 
